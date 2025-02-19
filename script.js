@@ -15,7 +15,7 @@ class Employee extends Person{
 		this.jobTitle=jobTitle;
 	}
 	jobGreet(){
-		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}.`)
+		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${jobTitle}.`)
 	}
 }
 
@@ -23,9 +23,4 @@ class Employee extends Person{
 window.Person = Person;
 window.Employee = Employee;
 
-let person = new Person("Akshath",25);
-person.greet());
-
-let employee = new Employee("Akshath",25,"Manager");
-employee.jobGreet());
 
