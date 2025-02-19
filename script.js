@@ -24,8 +24,8 @@ window.Person = Person;
 window.Employee = Employee;
 
 let person = new Person("Akshath",25);
-console.log(person.greet());
+person.greet();
 
 let employee = new Employee("Akshath",25,"Manager");
-console.log(employee.jobGreet());
+employee.jobGreet();
 
